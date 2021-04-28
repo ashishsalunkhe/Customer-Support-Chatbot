@@ -1,0 +1,415 @@
+{
+  "intents": [
+    {
+      "tag": "hi",
+      "patterns": ["Hi","hi","hi there","hello","Hello","hello there"],
+      "responses": ["A big hello to you, as well.<br><br>Please Type in MssageBox Fruits Or Vegetables"],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Category",
+      "patterns": ["Category"],
+      "responses": [""],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Fruits",
+      "patterns": ["Fruits List","fruits list","which fruits available here","Organic fruits","fruits"],
+      "responses": ["wich fruit you like !<br>"],
+      "context_set": ""
+    },
+    {
+      "tag": "vegetables",
+      "patterns": ["vegetables List","vegetables list","which vegetables available here","Organic vegetables","vegetables"],
+      "responses": ["wich vegetables you like !<br><table style=\"width:100%\"><tr><th>No</th><th>Organic Vegetables</th>"],
+      "context_set": ""
+    },
+    {
+      "tag": "01",
+      "patterns": ["01"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "02",
+      "patterns": ["02"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "03",
+      "patterns": ["03"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "04",
+      "patterns": ["04"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "05",
+      "patterns": ["05"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "06",
+      "patterns": ["06"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "07",
+      "patterns": ["07"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "08",
+      "patterns": ["08"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "09",
+      "patterns": ["09"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "010",
+      "patterns": ["010"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "011",
+      "patterns": ["011"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "012",
+      "patterns": ["012"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "013",
+      "patterns": ["013"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "014",
+      "patterns": ["014"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "015",
+      "patterns": ["015"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "016",
+      "patterns": ["016"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "017",
+      "patterns": ["017"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "018",
+      "patterns": ["018"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "019",
+      "patterns": ["019"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "020",
+      "patterns": ["020"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "021",
+      "patterns": ["021"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "022",
+      "patterns": ["022"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "023",
+      "patterns": ["023"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "024",
+      "patterns": ["024"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "025",
+      "patterns": ["025"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "026",
+      "patterns": ["026"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "027",
+      "patterns": ["027"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Apwashington",
+      "patterns": ["Apple Washington"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Kiwifruit",
+      "patterns": ["Kiwifruit"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Goji berry",
+      "patterns": ["Goji berry"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Apricot",
+      "patterns": ["Apricot"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Avocado(Butterfruit)",
+      "patterns": ["Avocado Butterfruit"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "BanaMorrisKg",
+      "patterns": ["Banana Morris Kg","Banana Morris"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "BanRegular",
+      "patterns": ["Banana Regular"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Banother",
+      "patterns": ["Banana Elaichi"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Cantaloupe(Muskmelon)",
+      "patterns": ["Cantaloupe Musk melon"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Custardapple",
+      "patterns": ["Custard apple"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "GooseberryIndian",
+      "patterns": ["Gooseberry Indian"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Gra(Black)",
+      "patterns": ["Grapes Black"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Gpes(Green)",
+      "patterns": ["Grapes Green"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Guava",
+      "patterns": ["Guava"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Lychee",
+      "patterns": ["Lychee"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Mgoripe",
+      "patterns": ["Mango ripe"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Mangounripe",
+      "patterns": ["Mango unripe"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Orange",
+      "patterns": ["Mandarin orange"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "OrangeImported",
+      "patterns": ["Orange Imported"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Papaya",
+      "patterns": ["Papaya"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Pears",
+      "patterns": ["Pears"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Pineapple",
+      "patterns": ["Pineapple"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Pomegranate",
+      "patterns": ["Pomegranate"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Sapota(Sapodilla)",
+      "patterns": ["Sapota Sapodilla"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Sugarcane",
+      "patterns": ["Sugar cane"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Sweetlime",
+      "patterns": ["Sweet lime"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "Watermelon",
+      "patterns": ["Watermelon"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "yes",
+      "patterns": ["yes"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "no",
+      "patterns": ["NO","no"],
+      "responses": ["Order is Cancelled <i class=\"fa fa-ban\" aria-hidden=\"true\"></i><br><br>Please Enter Your Full Name ,<br>Enter Your Full Address,<br>Enter your Contact Number "],
+      "context_set": ""
+    },
+    {
+      "tag": "data saved",
+      "patterns": ["data saved"],
+      "responses": ["Nice talking to you.  Have a good day!<br><br><i class=\"fa fa-credit-card-alt\" aria-hidden=\"true\"></i> Payment Link is <a href=\"https://www.farmerp.com/\">here</a>."],
+      "context_set": ""
+    },
+    {
+      "tag": "12345567",
+      "patterns": ["Cart Link","CART LINK","cart link","cart Link"],
+      "responses": ["Nice talking to you.  Have a good day!<br><br>Your Cart Link is <a href=\"https://www.farmerp.com/\">here</a>."],
+      "context_set": ""
+    },
+    {
+      "tag": "Bye",
+      "patterns": ["Bye","See you later","Goodbye"],
+      "responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."],
+      "context_set": ""
+    },
+    {
+      "tag": "Thank you",
+      "patterns": ["Thank you"],
+      "responses": ["You are welcome"],
+      "context_set": ""
+    },
+    {
+      "tag": "cart",
+      "patterns": ["cart list","cart","Cart List"],
+      "responses": ["<table style=\"width:100%\"><tr><th>No</th><th>Organic Fruits</th><th>Size</th><th>Was Rs</th><th>Unit</th><th>Saving</th><th>Price</th></tr>"],
+      "context_set": ""
+    },
+    {
+      "tag": "remove",
+      "patterns": ["remove", "delete", "Remove"],
+      "responses": ["<i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i> Product Deleted Successfully"],
+      "context_set": ""
+    },
+    {
+      "tag": "restart",
+      "patterns": ["restart"],
+      "responses": [""],
+      "context_set": ""
+    },
+    {
+      "tag": "orders",
+      "patterns": ["orders"],
+      "responses": ["<table style=\"width:100%\"><tr><th>No</th><th>Organic Fruits</th><th>Size</th><th>Was Rs</th><th>Unit</th><th>Saving</th><th>Price</th></tr>"],
+      "context_set": ""
+    }
+  ]
+}
+

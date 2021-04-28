@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ashish/Tensorflow-Chatbot-Demo/Bot/model.tflearn"
+all_model_checkpoint_paths: "/home/ashish/Tensorflow-Chatbot-Demo/Bot/model.tflearn"

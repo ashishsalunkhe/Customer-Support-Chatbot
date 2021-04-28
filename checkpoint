@@ -1,0 +1,2 @@
+model_checkpoint_path: "PycharmProject\\Tensorflow_Chatbot\\model.tflearn"
+all_model_checkpoint_paths: "PycharmProject\\Tensorflow_Chatbot\\model.tflearn"

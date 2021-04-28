@@ -1,0 +1,118 @@
+{"intents": [
+        {"tag": "hi",
+         "patterns": ["Hi","hi", "hi there","hello","Hello","hello there"],
+         "responses": ["A big hello to you, as well.<br>wich fruit you like !<br><table style=\"width:100%\">\n  <tr>\n    <th>No</th>\n    <th>Organic Fruits List</th>\n</tr>\n  <tr>\n    <td>01</td>\n    <td>Organic Premium Alphonso Mango</td>\n <tr>\n   <td>02</td>\n    <td>Organic Premium Alphonso Mango</td>\n  <tr>\n    <td>03</td>\n    <td>Organic Premium Alphonso Mango</td>\n<tr>\n    <td>04</td>\n    <td>Organic Raw Mango</td>\n<tr>\n    <td>05</td>\n    <td>Organic Pomegranate</td>\n<tr>\n    <td>06</td>\n    <td>Organic Raw Banana</td>\n </tr>\n</table>"],
+         "context_set": ""
+        },
+        {"tag": "Fruits",
+         "patterns": ["Fruits List","fruits list"],
+         "responses": ["<table style=\"width:100%\"> <tr>   <th>No</th>   <th>Organic Fruits</th> <th>Size</th> <th>Quantity</th> <th>Price</th> <th>Saving</th><th>Was Rs</th> </tr> <tr>\n"],
+         "context_set": ""
+        },
+        {"tag": "fruits",
+         "patterns": ["which fruits available here","Organic fruits", "fruits"],
+         "responses": ["<table style=\"width:100%\">\n  <tr>\n    <th>No</th>\n    <th>Organic Fruits</th>\n <th>Size</th>\n   <th>Price</th>\n <th>Saving</th>\n<th>Was Rs</th>\n </tr>\n  <tr>\n    <td>01</td>\n    <td>Organic Premium Alphonso Mango</td>\n <td>A</td>\n    <td>Rs.999.00 </td>\n <td>100.00</td>\n <td>1099.00</td>\n</tr>\n  <tr>\n    <td>02</td>\n    <td>Organic Premium Alphonso Mango</td>\n <td>B</td>\n   <td>Rs.899.00</td>\n<td>100.00</td>\n <td>999.00</td>\n <tr>\n    <td>03</td>\n    <td>Organic Premium Alphonso Mango</td>\n<td>Regular</td>\n    <td>Out Of Stock.</td>\n<td>0.00</td>\n<td>0.00</td>\n <tr>\n    <td>04</td>\n    <td>Organic Raw Mango</td>\n <td>Regular</td>\n   <td>Rs.99.00</td>\n<td>0</td>\n<td>99.00</td>\n <tr>\n    <td>05</td>\n    <td>Organic Pomegranate</td>\n<td>Regular</td>\n    <td>Rs.179.00</td>\n<td>71</td>\n <td>250.00</td>\n<tr>\n    <td>06</td>\n    <td>Organic Raw Banana</td>\n<td>Regular</td>\n    <td>Rs.39.00</td>\n<td>16</td>\n<td>55.00</td>\n </tr>\n</table>"],
+         "context_set": ""
+        },
+        {"tag": "Mango",
+         "patterns": ["mango","Mango"],
+         "responses": ["<table style=\"width:100%\">\n  <tr>\n    <th>No</th>\n    <th>Organic Fruits</th>\n <th>Size</th>\n   <th>Price</th>\n <th>Saving</th>\n<th>Was Rs</th>\n </tr>\n  <tr>\n    <td>01</td>\n    <td>Organic Premium Alphonso Mango</td>\n <td>A</td>\n    <td>Rs.999.00 </td>\n <td>100.00</td>\n <td>1099.00</td>\n</tr>\n  <tr>\n    <td>02</td>\n    <td>Organic Premium Alphonso Mango</td>\n <td>B</td>\n   <td>Rs.899.00</td>\n<td>100.00</td>\n <td>999.00</td>\n <tr>\n    <td>03</td>\n    <td>Organic Premium Alphonso Mango</td>\n<td>Regular</td>\n    <td>Out Of Stock.</td>\n<td>0.00</td>\n<td>0.00</td>\n <tr>\n    <td>04</td>\n    <td>Organic Raw Mango</td>\n <td>Regular</td>\n   <td>Rs.99.00</td>\n<td>0</td>\n<td>99.00</td>\n <tr>\n</tr>\n</table>"],
+         "context_set": ""
+        },
+        {"tag": "One",
+         "patterns": ["01"],
+         "responses": ["<center><img src=\"static/img/mango.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\">\n <tr>\n    <th>No</th>\n    <th>Organic Fruits</th>\n <th>Size</th>\n   <th>Price</th>\n <th>Saving</th>\n<th>Was Rs</th>\n </tr>\n <tr>\n    <td>01</td>\n    <td>Organic Premium Alphonso Mango</td>\n <td>A</td>\n    <td>Rs.999.00 </td>\n <td>100.00</td>\n <td>1099.00</td>\n</tr>\n  <tr>\n </tr>\n</table><br>Please Enter <b>Fruit Name </b>,<b> Fruit Size </b>And How Many <b>KG</b>"],
+         "context_set": ""
+        },
+        {"tag": "MA",
+         "patterns": ["Alphonso Mango Size A","Alphonso Mango A" ,"alphonso mango A","alphonso mango a","Alphonso Mango a"],
+         "responses": ["<center><img src=\"static/img/mango.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\"><tr><th>No</th><th>Organic Fruits</th><th>Size</th><th>Per KG</th><th>Price</th><th>Saving</th><th>Was Rs</th></tr>"],
+         "context_set": ""
+        },
+        {"tag": "Two",
+         "patterns": ["02"],
+         "responses": ["<center><img src=\"static/img/mango.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\">\n <tr>\n    <th>No</th>\n    <th>Organic Fruits</th>\n <th>Size</th>\n   <th>Price</th>\n <th>Saving</th>\n<th>Was Rs</th>\n </tr>\n <tr>\n    <td>02</td>\n    <td>Organic Premium Alphonso Mango</td>\n <td>B</td>\n  <td>899.00</td>\n <td>100.00</td>\n <td>999.00</td>\n</tr>\n  <tr>\n </tr>\n</table><br>Please Enter <b>Fruit Name </b>,<b> Fruit Size </b>And How Many <b>KG</b>"],
+         "context_set": ""
+        },
+        {"tag": "MB",
+         "patterns": ["Alphonso Mango Size B","Alphonso Mango B" ,"alphonso mango B","alphonso mango b","Alphonso Mango b"],
+         "responses": ["<center><img src=\"static/img/mango.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\"><tr><th>No</th><th>Organic Fruits</th><th>Size</th><th>Per KG</th><th>Price</th><th>Saving</th><th>Was Rs</th></tr>"],
+         "context_set": ""
+        },
+        {"tag": "Three",
+         "patterns": ["03"],
+         "responses": ["<center><img src=\"static/img/mango.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\">\n <tr>\n    <th>No</th>\n    <th>Organic Fruits</th>\n <th>Size</th>\n   <th>Price</th>\n <th>Saving</th>\n<th>Was Rs</th>\n </tr>\n <tr>\n    <td>03</td>\n    <td>Organic Premium Alphonso Mango</td>\n <td>Regular</td>\n  <td>Out Of Stock.</td>\n <td>0.00</td>\n <td>Out Of Stock.</td>\n</tr>\n  <tr>\n </tr>\n</table><br>Please Enter another fruits"],
+         "context_set": ""
+        },
+        {"tag": "four",
+         "patterns": ["04"],
+         "responses": ["<center><img src=\"static/img/raw.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\">\n <tr>\n    <th>No</th>\n    <th>Organic Fruits</th>\n <th>Size</th>\n   <th>Price</th>\n <th>Saving</th>\n<th>Was Rs</th>\n </tr>\n <tr>\n    <td>04</td>\n    <td>Organic Raw Mango(Kacchi Kairi)</td>\n <td>Regular</td>\n   <td>99.00</td>\n <td>0.00</td>\n <td>99.00</td>\n</tr>\n  <tr>\n </tr>\n</table><br>Please Enter <b>Fruit Name </b>,<b> Fruit Size </b>And How Many <b>KG</b>"],
+         "context_set": ""
+        },
+        {"tag": "Raw Mango",
+         "patterns": ["Raw Mango","raw mango","Raw Mango","raw mango"],
+         "responses": ["<center><img src=\"static/img/raw.png\" width=\"100%\" height=\"100%\">\n</center><table style=\"width:100%\"><tr><th>No</th><th>Organic Fruits</th><th>Size</th><th>Per KG</th><th>Price</th><th>Saving</th><th>Was Rs</th></tr>"],
+         "context_set": ""
+        },
+        {"tag": "FIVE",
+         "patterns": ["05"],
+         "responses": ["<center><img src=\"static/img/pomo.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\">\n<tr>\n    <th>No</th>\n    <th>Organic Fruits</th>\n <th>Size</th>\n   <th>Price</th>\n <th>Saving</th>\n<th>Was Rs</th>\n </tr>\n  <tr>\n    <td>05</td>\n    <td>Organic Pomegranate</td>\n <td>Regular</td>\n    <td>179.00</td>\n <td>71.00</td>\n <td>250.00</td>\n</tr>\n  <tr>\n </tr>\n</table><br>Please Enter <b>Fruit Name </b>,<b> Fruit Size </b>And How Many <b>KG</b>"],
+         "context_set": ""
+        },
+        {"tag": "pomegranate",
+         "patterns": ["Pomegranate","pomegranate","Pomegranate","pomegranate"],
+         "responses": ["<center><img src=\"static/img/pomo.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\"><tr><th>No</th><th>Organic Fruits</th><th>Size</th><th>Per KG</th><th>Price</th><th>Saving</th><th>Was Rs</th></tr>"],
+         "context_set": ""
+        },
+        {"tag": "six",
+         "patterns": ["06"],
+         "responses": ["<center><img src=\"static/img/banana.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\">\n <tr>\n    <th>No</th>\n    <th>Organic Fruits</th>\n <th>Size</th>\n   <th>Price</th>\n <th>Saving</th>\n<th>Was Rs</th>\n </tr>\n <tr>\n    <td>06</td>\n    <td>Organic Raw Banana</td>\n <td>Regular</td>\n    <td>39.00</td>\n <td>16.00</td>\n <td>55.00</td>\n</tr>\n  <tr>\n </tr>\n</table><br>Please Enter <b>Fruit Name </b>,<b> Fruit Size </b>And How Many <b>KG</b>"],
+         "context_set": ""
+        },
+        {"tag": "Banana",
+         "patterns": ["Banana","banana","Banana","banana"],
+         "responses": ["<center><img src=\"static/img/banana.png\" width=\"100%\" height=\"100%\">\n</center><br><table style=\"width:100%\"><tr><th>No</th><th>Organic Fruits</th><th>Size</th><th>Per KG</th><th>Price</th><th>Saving</th><th>Was Rs</th></tr>"],
+         "context_set": ""
+        },
+        {"tag": "yes",
+         "patterns": ["YES","yes"],
+         "responses": ["Order is Conform !<br><br>Please Enter Your Full Name ,<br>Enter Your Full Address,<br>Enter your Contact Number "],
+         "context_set": ""
+        },
+        {"tag": "no",
+         "patterns": ["NO","no"],
+         "responses": ["Order is Cancelled !<br><br>Please Enter Your Full Name ,<br>Enter Your Full Address,<br>Enter your Contact Number "],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["name","Name","address","Address","contact number","Contact Number","contact no","Contact No"],
+         "responses": ["Nice talking to you.  Have a good day!<br><br>Payment Link is <a href=\"https://www.farmerp.com/\">here</a>."],
+         "context_set": ""
+        },
+        {"tag": "12345567",
+         "patterns": ["Cart Link","CART LINK","cart link","cart Link"],
+         "responses": ["Nice talking to you.  Have a good day!<br><br>Your Cart Link is <a href=\"https://www.farmerp.com/\">here</a>."],
+         "context_set": ""
+        },
+        {"tag": "Bye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+         "context_set": ""
+        },
+        {"tag": "Thank you",
+         "patterns": ["Thank you"],
+         "responses": ["You are welcome"],
+         "context_set": ""
+        },
+        {"tag": "cart",
+         "patterns": ["cart list","cart","Cart List"],
+         "responses": ["<table style=\"width:100%\"><tr><th>No</th><th>Organic Fruits</th><th>Size</th><th>Per KG</th><th>Price</th><th>Saving</th><th>Was Rs</th></tr>"],
+         "context_set": ""
+        },
+        {"tag": "remove",
+         "patterns": ["remove","delete","Remove"],
+         "responses": ["<table style=\"width:100%\"><tr><th>No</th><th>Organic Fruits</th><th>Size</th><th>Per KG</th><th>Price</th><th>Saving</th><th>Was Rs</th></tr></table>"],
+         "context_set": ""
+        }
+]
+}
